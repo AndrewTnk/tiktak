@@ -1,0 +1,24 @@
+body {
+  display: flex;
+  justify-content: center;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+}
+.game-container #game {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.game-container #game > div {
+  width: 80px;
+  height: 80px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.game-container #game > div span {
+  font-size: 80px;
+}/*# sourceMappingURL=style.css.map */
